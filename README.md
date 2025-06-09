@@ -28,4 +28,13 @@ Run the FastAPI server:
 uvicorn main:app --reload
 ```
 
-Send a POST request to `/analyze` with your article text to get analysis and suggestions. 
+Send a POST request to `/analyze` with your article text to get analysis and suggestions.
+
+### Simple Example
+
+A simple example is provided by just running `main.py` directly:
+```bash
+python main.py
+```
+
+This will analyze a sample article about technology and productivity using both OpenAI and Anthropic models. 
